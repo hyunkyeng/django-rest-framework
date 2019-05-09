@@ -9,7 +9,7 @@ from .models import Music, Artist, Comment
 # 반환하도록 해주는 아이.
 
 # music 는 쿼리셋, 일종의 리스트인데 우리가 응답하려고 하는 것은 json
-# Serializer 가 해주는 것은 리스특를 하나 하나씩 json 타입으로 바꿔주는 고마운 도구 이다.
+# Serializer 가 해주는 것은 리스트를 하나 하나씩 json 타입으로 바꿔주는 고마운 도구 이다.
 # 그리고 응답하는 함수는 Response 이다.
 # 결과로 보내줄 데이터는 .data 로 가져온다.
 

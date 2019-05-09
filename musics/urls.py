@@ -9,5 +9,5 @@ urlpatterns = [
     path('artists/', views.artist_list),
     path('docs/', get_swagger_view(title='Api Docs')),
     path('musics/<int:music_pk>/', views.music_detail),
-    path('musics/', views.music_list)
+    path('musics/', views.music_list),
 ]
